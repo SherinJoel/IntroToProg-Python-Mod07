@@ -61,10 +61,9 @@ This function accepts two parameters, file_name(binary file to which the list da
  ```
 **Listing 3:** *Function writing List data to a binary file*
 
-
-
 ## Execution
+With the script created in its proper location, I run the script in both PyCharm (Figure 1) and an OS command/shell window (Figure 2).
 
 ![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Screen%20Shot%202021-08-24%20at%202.27.09%20PM.png "tooltip text")
-#### Figure 13. The results of Listing 13
+**Figure 1:** *The results of Listing 2*
 ## Summary
