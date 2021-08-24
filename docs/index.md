@@ -1,6 +1,7 @@
 # Create a script using Exception Handling and Pickling
-**Dev:** *Sherin Soman*  
-**Date:** *Aug 24, 2021*  
+*Sherin Soman*  
+*Aug 24, 2021*  
+*Assignment 07*  
 ## Introduction
 Basic overview of Exception Handling and Pickling in python
 ## Python Exception Handling
@@ -19,7 +20,8 @@ I started my script by adding the script's header.
 **Listing 1:** *Script Header*
 ### *Reading data from a binary file into a list of dictionary rows*
 This task is defined by a function which returns the list of dictionary rows. To read data from a binary file, the file is opened in “rb” mode. Using the pickle load(), the data from the pickle file is read and loaded into the list. Two exceptions are handled while reading data from file. Specific exception,if the file to read is not found and generic exception, if the file to read is corrupted.
-```        def read_data_from_file(file_name, list_of_rows):
+```     
+    def read_data_from_file(file_name, list_of_rows):
         """ Reads data from a binary file into a list of dictionary rows
 
         :param file_name: (string) with name of binary file:
@@ -42,8 +44,10 @@ This task is defined by a function which returns the list of dictionary rows. To
  ```
 **Listing 2:** *Function reading data from file and returning the list of dictionary rows*
 ### *Writing List data to binary file*  
-The file is opened in write mode and the elements from the list are written to the file.
-```    def write_data_to_file(file_name, list_of_rows):
+This function accepts two parameters, file_name(binary file to which the list data is written) and list_of_rows(list from which data is read). The file is opened in the "wb" mode and using the pickle dump(), the data from the list is written to the binary file.
+
+```    
+    def write_data_to_file(file_name, list_of_rows):
         """ Writing data to binary file from list of dictionary rows
 
         :param file_name: (string) with name of binary file:
