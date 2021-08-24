@@ -18,7 +18,7 @@ I started my script by adding the script's header.
 ```
 **Listing 1:** *Script Header*
 ### *Reading data from a binary file into a list of dictionary rows*
-This task is defined by a function which returns the list of dictionary rows. To read data from a binary file, the file is opened in “rb” mode. Using a for loop, each row in the text file is read and splits at the specified separator (comma) using the split() method and is stored in the variables task and priority. These values are then appended to the list as dictionary rows using the append(). The file is closed using the close().
+This task is defined by a function which returns the list of dictionary rows. To read data from a binary file, the file is opened in “rb” mode. Using the pickle load(), the data from the pickle file is read and loaded into the list. Two exceptions are handled while reading data from file. Specific exception,if the file to read is not found and generic exception, if the file to read is corrupted.
 ```        def read_data_from_file(file_name, list_of_rows):
         """ Reads data from a binary file into a list of dictionary rows
 
@@ -41,6 +41,24 @@ This task is defined by a function which returns the list of dictionary rows. To
         return list_of_rows, 'Success'
  ```
 **Listing 2:** *Function reading data from file and returning the list of dictionary rows*
+### *Writing List data to binary file*  
+The file is opened in write mode and the elements from the list are written to the file.
+```    def write_data_to_file(file_name, list_of_rows):
+        """ Writing data to binary file from list of dictionary rows
+
+        :param file_name: (string) with name of binary file:
+        :param list_of_rows: (list) you want to read data and write to file:
+        :return: (list) of dictionary rows:
+        """
+        file = open(file_name, "wb")
+        pickle.dump(list_of_rows,file)
+        file.close()
+        return list_of_rows, 'Success
+ ```
+**Listing 3:** *Function writing List data to a binary file*
+
+
+
 ## Execution
 
 ![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Screen%20Shot%202021-08-24%20at%202.27.09%20PM.png "tooltip text")
