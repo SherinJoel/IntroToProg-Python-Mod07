@@ -30,4 +30,7 @@ Basic overview of Exception Handling and Pickling in python
 ```
 **Code** *Function reading data from Pickle file*
 ## Execution
+
+![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Screen%20Shot%202021-08-24%20at%202.27.09%20PM.png "tooltip text")
+#### Figure 13. The results of Listing 13
 ## Summary
