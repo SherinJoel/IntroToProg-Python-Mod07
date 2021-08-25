@@ -75,5 +75,6 @@ With the script created in its proper location, I run the script in both PyCharm
 
 ## Verifying the result
 Locate the file and open it in a text editor.
-
+![alt text] (https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output4.png "tooltip text")
+**Figure 3:** *Verifying that the file contains binary data*
 ## Summary
