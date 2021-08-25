@@ -3,8 +3,17 @@
 *Aug 24, 2021*  
 *Assignment 07*  
 ## Introduction
-Basic overview of Exception Handling and Pickling in python
+This Assignment gives a basic overview of Exception Handling and Pickling in python. In this Assignment, I explained the steps I have done to create a script using custom functions and binary files. I start my program by loading the data in a binary file called ToDoFile.dat into a python list of dictionaries rows. The script continues to display a menu of choices to the user until the user ask to exit the program. I used a printed "menu" to guide the user through this process.
+
 ## Python Exception Handling
+Try and except statements are used to catch and handle exceptions in Python. Statements that can raise exceptions are kept inside the try clause and the
+statements that handle the exception are written inside except clause.  
+
+### *Catching Specific Exception*
+A try clause can have any number of except clauses to handle different exceptions, however, only one will be executed in case an exception occurs. ValueError, TypeError, ZeroDivisionError, FileNotFoundError are some examples.
+### *Try with Else Clause*
+In python, we can also use the else clause on the try-except block which must be present after all the except clauses. The code enters the else block only if the try clause does not raise an exception.
+
 ## Python Pickling
 ## Create a new project in Pycharm
 To create a new Project in PyCharm, I created a sub-folder called Assignment 07 inside of the _PythonClass folder and used _PythonClass\Assignment07 as its location to create the new project. Within the project, I added the python file, "Assignment07.py.
@@ -74,7 +83,9 @@ With the script created in its proper location, I run the script in both PyCharm
 **Figure 2:** *The Script running in Command Window*
 
 ## Verifying the result
-Locate the file and open it in a text editor.
-![alt text] (https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output4.png "tooltip text")
+Locate the file and open it in a text editor.  
+![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output4.png "tooltip text")  
 **Figure 3:** *Verifying that the file contains binary data*
+
 ## Summary
+In this assignment, I was able to write a python script which uses Exceptions and Pickling. The script is executed both in PyCharm and in command window to verify the results and the script ran as expected.  I also post the files on a public GitHub repository to review.
