@@ -69,4 +69,11 @@ With the script created in its proper location, I run the script in both PyCharm
 
 ![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output2.png "tooltip text")  
 **Figure 1.2:** *The results of Listing 3*
+
+![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output3.png "tooltip text")
+**Figure 2:** *The Script running in Command Window*
+
+## Verifying the result
+Locate the file and open it in a text editor.
+
 ## Summary
