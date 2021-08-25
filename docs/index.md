@@ -64,6 +64,6 @@ This function accepts two parameters, file_name(binary file to which the list da
 ## Execution
 With the script created in its proper location, I run the script in both PyCharm (Figure 1) and an OS command/shell window (Figure 2).
 
-![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output1.png width=50% height=50%>"tooltip text")
+![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output1.png >"tooltip text")
 **Figure 1:** *The results of Listing 2*
 ## Summary
