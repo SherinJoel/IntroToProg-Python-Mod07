@@ -13,8 +13,15 @@ statements that handle the exception are written inside except clause.
 A try clause can have any number of except clauses to handle different exceptions, however, only one will be executed in case an exception occurs. ValueError, TypeError, ZeroDivisionError, FileNotFoundError are some examples.
 ### *Try with Else Clause*
 In python, we can also use the else clause on the try-except block which must be present after all the except clauses. The code enters the else block only if the try clause does not raise an exception.
+### *Finally Keyword in Python*
+Python provides a keyword finally, which is always executed after the try and except blocks. 
+### *Raising Exceptions in Python*
+In Python programming, exceptions are raised when errors occur at runtime. We can also manually raise exceptions using the raise keyword.
 
 ## Python Pickling
+The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling.  
+Pickling and unplickling can be done only after importing pickle module using the command − import pickle.  
+Once the file is opened for writing(wb-write binary mode), you can use pickle.dump(), which takes two arguments: the object you want to pickle and the file to which the object has to be saved. To read data from pickle file(rb-read binary mode),we can use the pickle.load()which takes one argument: the file from which binary data is read.
 ## Create a new project in Pycharm
 To create a new Project in PyCharm, I created a sub-folder called Assignment 07 inside of the _PythonClass folder and used _PythonClass\Assignment07 as its location to create the new project. Within the project, I added the python file, "Assignment07.py.
 ## Code Explanation
