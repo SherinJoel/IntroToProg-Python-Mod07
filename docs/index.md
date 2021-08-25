@@ -67,6 +67,6 @@ With the script created in its proper location, I run the script in both PyCharm
 ![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output1.png "tooltip text")
 **Figure 1.1:** *The results of Listing 2*  
 
-![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output2.png "tooltip text")
+![alt text](https://github.com/SherinJoel/IntroToProg-Python-Mod07/blob/main/docs/Output2.png "tooltip text")  
 **Figure 1.2:** *The results of Listing 3*
 ## Summary
